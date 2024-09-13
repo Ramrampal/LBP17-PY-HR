@@ -1,0 +1,8 @@
+# Read the input number
+number = input().strip()
+
+# Check if the number is a palindrome
+if number == number[::-1]:
+    print("Yes")
+else:
+    print("No")
